@@ -1,4 +1,4 @@
-# Plan d'action 
+# Plan d'action
 
 1. Kanban
 2. Lecture des documentations Terraform et Pterodactyl
@@ -8,7 +8,8 @@
 6. Documentation Terraform et Ansible
 7. Table d'adressage
 8. Ch 1: déploiement d’une infrastructure minimale
-9. Ch 2: déploiement  BDD (Mariadb)
+9. Installation de Terraform
+10. Ch 2: déploiement  BDD (Mariadb)
 11. Ch 3: déploiement d’un espace de stockage (MFS?)
 12. Installation de Pterodactyl (sous ubuntu)
 13. Installation de Apache
@@ -25,15 +26,11 @@
 24. Le plan de test de charge
 25. Backup (politique)
 26. Stratégie de scaling (Ansible)
-37. 
-
-
-
-
+27. N/A
 
 -------------------------------------------
 
-Azure ressource 
+Azure ressource
 
 | ressource | Terraform | Pterodactyl | Bastion  |
 | -------- | -------- | -------- | -------- |
@@ -45,11 +42,13 @@ Azure ressource
 | mariadb     | ✗     | ✗    |✓     |
 
 Ressource vm:
+
 - Disque : hdd
 - RAM: 8 giga (16 pour une - utilisation réelle)
 - Coeur: 1
 
 Ressource MariaDB:
+
 - Disque: SSD
 - RAM: 4Gb
 - Coeur: 1
