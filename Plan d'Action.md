@@ -35,22 +35,21 @@
 
 Azure ressource 
 
-
-
 | ressource | Terraform | Pterodactyl | Bastion  |
 | -------- | -------- | -------- | -------- |
-| Azure service    | V     | X    | X    |
-| ressource groupe    | V     | V     |V     |
-| VM    | V     | V     |V    |
-| Vnet    | V    | V     | V     |
-| subnet     | V     | V     |V     |
-| mariadb     | x     | x    |V     |
+| Azure service    | ✓     | ✗    | ✗    |
+| ressource groupe    | ✓     | ✓     |✓     |
+| VM    | ✓     | ✓     |✓    |
+| Vnet    | ✓    | ✓     | ✓     |
+| subnet     | ✓     | ✓     |✓     |
+| mariadb     | ✗     | ✗    |✓     |
 
-ressource vm :
-disk : hdd
-ram: 8 giga (16 pour une vraie utilisation)
-coeur: 1 
-Ressource mariadb:
-disk: ssd
-ram: 4g
-coeur: 1
+Ressource vm:
+- Disque : hdd
+- RAM: 8 giga (16 pour une - utilisation réelle)
+- Coeur: 1
+
+Ressource MariaDB:
+- Disque: SSD
+- RAM: 4Gb
+- Coeur: 1
