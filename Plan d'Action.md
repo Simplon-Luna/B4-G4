@@ -27,3 +27,30 @@
 26. Stratégie de scaling (Ansible)
 37. 
 
+
+
+
+
+-------------------------------------------
+
+Azure ressource 
+
+
+
+| ressource | Terraform | Pterodactyl | Bastion  |
+| -------- | -------- | -------- | -------- |
+| Azure service    | V     | X    | X    |
+| ressource groupe    | V     | V     |V     |
+| VM    | V     | V     |V    |
+| Vnet    | V    | V     | V     |
+| subnet     | V     | V     |V     |
+| mariadb     | x     | x    |V     |
+
+ressource vm :
+disk : hdd
+ram: 8 giga (16 pour une vraie utilisation)
+coeur: 1 
+Ressource mariadb:
+disk: ssd
+ram: 4g
+coeur: 1
