@@ -53,7 +53,7 @@ Azure ressource
 Ressource vm:
 
 - Disque : hdd
-- RAM: 8 giga (16 pour une - utilisation réelle)
+- RAM: 8 giga (16 pour une utilisation réelle)
 - Coeur: 1
 
 Ressource MariaDB:
