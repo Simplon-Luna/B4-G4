@@ -7,3 +7,4 @@ Pterodactyl : https://pterodactyl.io/panel/1.0/getting_started.html / https://mt
 pterodactyl egg : https://github.com/DEVBenSon/pterodactyl-eggs
 
 pterodactyl mc : https://pterodactylmarket.com/resource/243
+
