@@ -1,5 +1,6 @@
 # Plan d'action
 
+0. Scrum quotidien
 1. Kanban
 2. Lecture des documentations Terraform et Pterodactyl
 3. Topologie de l'infrastructure
