@@ -19,3 +19,15 @@ Etablissement à 3 du plan d’action, planification des politiques de scaling, 
  Baptiste s’est occupé de la planification des tests de charge, recherche documentation et préparation des ressources Azure pour le Brief en cours.
 
 ### 22-08-26
+
+Finalisation du plan d'action et présentation.
+
+Difficultée et faire aujourd'hui :
+
+Baptiste : installation de terraform
+
+Dunvael : Lire doc Terraform & install. Hier, un peu perdue avec les nouvelles notions de scaling et beaucoup d'info a gérer.
+
+Luna : Terraform install -> Pterodactyl. Difficulté de transmission d'information a réfler.
+
+### 22-08-29
