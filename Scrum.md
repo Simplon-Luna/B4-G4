@@ -30,4 +30,10 @@ Dunvael : Lire doc Terraform & install. Hier, un peu perdue avec les nouvelles n
 
 Luna : Terraform install -> Pterodactyl. Difficulté de transmission d'information a réfler.
 
-### 22-08-29
+### 22-08-30
+
+Hier on a beaucoup travaillés sur le code en lui-même pour comprendre mieux les conceptes.
+
+Baptiste a travaillé sur la BDD et la mise en place de la VM via Terraform.
+
+Aujourd'hui, on va se concentrer sur la configuration des VM et des groupes de sécurité avant de s'attarder à la mise en place de Pterodactyl.
