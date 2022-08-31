@@ -37,3 +37,5 @@ Hier on a beaucoup travaillés sur le code en lui-même pour comprendre mieux le
 Baptiste a travaillé sur la BDD et la mise en place de la VM via Terraform.
 
 Aujourd'hui, on va se concentrer sur la configuration des VM et des groupes de sécurité avant de s'attarder à la mise en place de Pterodactyl.
+
+### 22-08-31
