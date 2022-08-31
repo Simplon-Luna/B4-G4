@@ -39,3 +39,7 @@ Baptiste a travaillé sur la BDD et la mise en place de la VM via Terraform.
 Aujourd'hui, on va se concentrer sur la configuration des VM et des groupes de sécurité avant de s'attarder à la mise en place de Pterodactyl.
 
 ### 22-08-31
+
+Hier on a trouver un script bien détailler pour l'installation de Pterodactyl au complet, avec Wings & Docker.
+
+Continuer avec l'automatisation du script pour Dunvael & Luna, recherche Load Balancer, gateway & start cloud init pour  Baptiste.
