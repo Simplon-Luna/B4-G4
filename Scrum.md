@@ -43,3 +43,11 @@ Aujourd'hui, on va se concentrer sur la configuration des VM et des groupes de s
 Hier on a trouver un script bien détailler pour l'installation de Pterodactyl au complet, avec Wings & Docker.
 
 Continuer avec l'automatisation du script pour Dunvael & Luna, recherche Load Balancer, gateway & start cloud init pour  Baptiste.
+
+### 22-09-01
+
+Yuta. Finis MariaDB, paramettrage des resources manquantes (subnet, etc) et attente de ce fucking Azure qui dort. Aujourd'hui finission du load balance.
+
+Dunvael et Maitresse Scrum. Hier plus du projet de Pterodactyl (la loose), refocus sur un install manu-auto de Pterodactyl. Aujourd'hui refocus sur le brief, terraform & VM mock.
+
+### 22-09-02
