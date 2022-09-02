@@ -51,3 +51,9 @@ Yuta. Finis MariaDB, paramettrage des resources manquantes (subnet, etc) et atte
 Dunvael et Maitresse Scrum. Hier plus du projet de Pterodactyl (la loose), refocus sur un install manu-auto de Pterodactyl. Aujourd'hui refocus sur le brief, terraform & VM mock.
 
 ### 22-09-02
+
+Hier, réunion communication du groupe, mise en place de règle 1 travail de groupe minimum par jour. Travaillée avec Dunvael sur Terraform pour mise en place infra.
+
+Dunvael, reprise Terraform sous l'oeil, communication d'équipe c'était important et il faut continuer pour évoluer et déveloper les compétences. Mission du jour, régler le problème com et arriver à faire scale-in&out.
+
+Yuta, hier aider et fait une partie de scale set & load balancer. Aujourd'hui, finis le outbound rules & Pterodactyl. Et manger les 4 derniers Speculos.
