@@ -57,3 +57,11 @@ Hier, réunion communication du groupe, mise en place de règle 1 travail de gro
 Dunvael, reprise Terraform sous l'oeil, communication d'équipe c'était important et il faut continuer pour évoluer et déveloper les compétences. Mission du jour, régler le problème com et arriver à faire scale-in&out.
 
 Yuta, hier aider et fait une partie de scale set & load balancer. Aujourd'hui, finis le outbound rules & Pterodactyl. Et manger les 4 derniers Speculos.
+
+### 22-09-03
+
+Scrum des scrums
+
+D&L - Travail sur loadbalancer et nouveau script de déployement plus généralisé.
+
+Baptiste - re-création complete de l'infrastructure pour le load balancer & gateway.
