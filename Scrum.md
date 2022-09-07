@@ -71,5 +71,7 @@ Aujourd'hui
 
 Baptiste - Proposition de changement de Pterodactyl à Gitea. Proposition acceptée par le reste de l'équipe. Recherche pour adaptation du code pour Gitea en groupe post-monitoring.
 
-Dunvael & Luna - Finition du monitoring
+Dunvael & Luna - Finition du monitoring.
+
+Baptiste est désormais appellé Poupli-chan.
 
