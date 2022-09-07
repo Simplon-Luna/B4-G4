@@ -74,4 +74,4 @@ Baptiste - Proposition de changement de Pterodactyl à Gitea. Proposition accept
 Dunvael & Luna - Finition du monitoring.
 
 Baptiste est désormais appellé Poupli-chan.
-
+Dunvael est désormais appellée Sadic-Senpai.
