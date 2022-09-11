@@ -75,3 +75,22 @@ Dunvael & Luna - Finition du monitoring.
 
 Baptiste est désormais appellé Poupli-chan.
 Dunvael est désormais appellée Sadic-Senpai.
+
+----
+
+copie les données dans une région secondaire de la région primaire sur plusieurs centres de données situés à plusieurs kilomètres.
+
+R. Stockage Premium
+B. Stockage redondant dans une zone (ZRS)
+C. Stockage géo-redondant (GRS)
+D. Stockage localement redondant (LRS)
+
+Quelle option permet de définir la communication entre un **appareil VPN local** et une **passerelle VPN Azure** via un tunnel chiffré via Internet ?
+
+R. ExpressRoute
+B. VPN point à site (P2S)
+C. VPN de site à site
+
+----
+
+BGP / Border Gateway Protocol ?
