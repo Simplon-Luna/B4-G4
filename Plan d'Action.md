@@ -34,9 +34,9 @@ admin(Administrateurs)
 
 
     proxy(Bastion)
-    appGW(Passerelle <br> d'application)
+    appGW(Load Balancer)
 
-        subgraph VM [Scaling - Pterodactyl]
+        subgraph VM [Scaling - Gitea]
         vm1(VM)
         vm2(VM)
         vm3(VM)
