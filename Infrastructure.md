@@ -1,8 +1,3 @@
-# Infrastructure Plannifiée
-
-
-Topologie Infrastructure  
-
 ```mermaid
 flowchart TD 
 
@@ -16,16 +11,15 @@ admin(Administrateurs)
 
     subgraph AZ [azure]
         subgraph BDD [Stockage]
-        app(Pterodactyl)
         apa(Apache)
         bdd(MariaDB)
         end
 
-    Serv(VM principale)
-    proxy(Bastion)
-    appGW(Passerelle <br> d'application)
 
-        subgraph VM [Scaling]
+    proxy(Bastion)
+    appGW(Load Balancer)
+
+        subgraph VM [Scaling - Gitea]
         vm1(VM)
         vm2(VM)
         vm3(VM)
@@ -38,9 +32,9 @@ admin(Administrateurs)
 
     end 
 
-user --- vide --> proxy --> apa
+user --- vide --> proxy --> appGW --> VM
 admin --- |ssh| void --> |ssh| proxy --> |ssh| BDD
-BDD --- appGW --> Serv <-.-> VM
+VM <--> BDD
 
     classDef rouge fill:#faa,stroke:#f66,stroke-width:4px,color:#fff,stroke-dasharray: 5 5;
     class VM, rouge;
