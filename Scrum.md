@@ -76,6 +76,18 @@ Dunvael & Luna - Finition du monitoring.
 Baptiste est désormais appellé Poupli-chan.
 Dunvael est désormais appellée Sadic-Senpai.
 
+### 22-09-08
+Luna et Dunvael : création du monitoring et configuration, ajout du code de Baptiste.
+Baptiste : création de Bastion, de son vnet et configuration de Bastion.
+Objectifs : enlever la deuxième VM (Panel ou wings) qui ne sert à rien, enlever redis, installer Gitea, documentation, le gateway à la place du load balancer. 
+
+### 22-09-12
+Objectifs du 08 accomplis sauf App Gateway qu'on garde et la doc.
+
+Il faut faire la doc du groupe et la doc de transmission et faire le test de montée en charge.
+
+Optionnel, faire le FQDN.
+
 ----
 
 copie les données dans une région secondaire de la région primaire sur plusieurs centres de données situés à plusieurs kilomètres.
