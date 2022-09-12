@@ -80,7 +80,6 @@ VM <--> BDD
 | SSH (port) | 80 | 22 |
 | Disque | HDD - 4Gb | SSD - 4Gb |
 | Ubuntu | 18.04-LTS à maj en 22.04 LTS | 18.04-LTS à maj en 22.04 LTS  |
-| Serveur Minecraft | 1.19.2 | ✗  |
 
 
 Ressource vm:
@@ -97,17 +96,14 @@ Ressource MariaDB:
 - Coeur: 1
 
 Ressources : 
-- deux ip publiques
+- trois ip publiques
 - un FQDN
 - TLS
-- Serveur [Minecraft](https://www.minecraft.net/fr-fr/download/server) à installer version 1.19.2
-- Pack chunkloader pour tester la charge
-- Wings : permet de contrôler les serveurs Pterodactyl (Minecraft)
+- Test de montée en charge
 - Terraform
-- Redis
 - Bastion
 
-05. **Liste tâches à faire sur le [Board](https://github.com/users/Simplon-Luna/projects/1/views/1)**
+1.  **Liste tâches à faire sur le [Board](https://github.com/users/Simplon-Luna/projects/1/views/1)**
 Création et gestion des tâches dans l'ordre du plan d'action. Attribution des tâches aux membres du groupe au fur et à mesure.
 
 06. **Installation de Terraform**
@@ -116,33 +112,25 @@ Création et gestion des tâches dans l'ordre du plan d'action. Attribution des 
 
 08. **Ch 2: déploiement  BDD** (Mariadb)
 
-09. **Ch 2.5: Redis**
+9.  **Ch 3: déploiement d’un espace de stockage** (SMB)
 
-10. **Ch 3: déploiement d’un espace de stockage** (NFS?)
+10. **Ch 5: déploiement d’un load balancer**
 
-11. **Ch 5: déploiement d’un load balancer**
+11. **Installation de Gitea (sous ubuntu)**
 
-12. **Installation de Pterodactyl (sous ubuntu)**
+12. **Ch 4: script cloud-init**
 
-13. **Installation du panel**
+13. **Ch 7: Monitoring de l’application**
 
-14. **Installation de Wings**
+14. **Ch 8: script de test de montée en charge**
 
-15. **Ch 4: script cloud-init**
+15. **Ch 9: backup**
 
-16. **Ch 6: mise en place de TLS**
+16. **Table d'adressage**
 
-17. **Ch 7: Monitoring de l’application**
+17. **Ch 10: scale set** /!\ ***SWITCH APP*** /!\
 
-18. **Ch 8: script de test de montée en charge**
-
-19. **Ch 9: backup**
-
-20. **Table d'adressage**
-
-21. **Ch 10: scale set** /!\ ***SWITCH APP*** /!\
-
-21.**Ch 11: auto scale**
+21. **Ch 11: auto scale**
 
 22. **Les tests et métriques de monitoring**
 Nous allons utiliser Azure insight et mesurer : 
@@ -167,6 +155,4 @@ Scale up de la BDD utilisateur après 80% d'utilisation.
 
 25. **Documentations Terraform et Ansible**
 Documentation "à la volée" sur ce que l'on a compris lors de notre utilisation de Terraform, des difficultés, des spécificités...
-
-26. 
 
