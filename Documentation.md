@@ -74,3 +74,5 @@ Nous avons rencontré plusieurs difficultés :
 
 ### Conclusion
 Terraform est un outil intéressant et pratique pour le déploiement, le maintien, et destruction automatique d'applications et d'infrastsuctures cloud. C'est un outil performant qui souffre d'une documentation dépassée et d'une implémentaiton Azure hazardeuse.
+
+[&#8679;](#top)  
