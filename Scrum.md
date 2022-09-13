@@ -88,6 +88,11 @@ Il faut faire la doc du groupe et la doc de transmission et faire le test de mon
 
 Optionnel, faire le FQDN.
 
+### 22-09-13
+Objectif d'hier atteint, script initial terminé !
+
+DocS a réaliser (Poulpi?)
+
 ----
 
 copie les données dans une région secondaire de la région primaire sur plusieurs centres de données situés à plusieurs kilomètres.
