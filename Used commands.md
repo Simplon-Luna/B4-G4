@@ -135,11 +135,3 @@ echo "$(terraform output resource_group_name)"
 
 ### Mettre à jour le gitub avec le nouveau code
 git pull <adresse_https_du_réptertoire_github>
-
-### Configurer une machine virtuelle Linux dans Azure à l’aide de Terraform
-
-[Lien du tutoriel](https://docs.microsoft.com/fr-fr/azure/developer/terraform/create-linux-virtual-machine-with-infrastructure)
-
-## . Installation sur [Windows](https://devopssec.fr/article/installer-configurer-environnement-terraform)
-
-A faire plus tard
