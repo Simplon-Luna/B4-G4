@@ -6,8 +6,8 @@
 ### [1 - Qu'est-ce que Terraform ?](#Terraform)
 ### [2 - Prérequis](#Prérequis)
 ### [3 - Installation](#Installation)
-#### [a) Azure CLI](#Azure-CLI)
-#### [b) Terraform](#Terraform-install)
+#### &nbsp;&nbsp;&nbsp; [a) Azure CLI](#Azure-CLI)
+#### &nbsp;&nbsp;&nbsp; [b) Terraform](#Terraform-install)
 ### [4 - Difficultés rencontrées](#Difficultés)
 ### [5 - Conclusion](#Conclusion)
 
