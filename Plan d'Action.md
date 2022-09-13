@@ -9,7 +9,7 @@ Réunions hebdomadaires avec les autres Scrum Masters avec compte-rendu au group
 
 01. **Création Kanban**
 
-02. **Lecture des documentations Terraform et Pterodactyl**
+02. **Lecture des documentations Terraform et Gitea**
 
 03. **Topologie de l'infrastructure**
 Infrastructure Plannifiée
@@ -26,13 +26,13 @@ admin(Administrateurs)
     void( )
     end  
 
-    subgraph AZ [azure]
+    subgraph AZ [Azure]
         subgraph BDD [Stockage]
         apa(Apache)
         bdd(MariaDB)
         end
 
-
+    vmadmin(VM Admin)
     proxy(Bastion)
     appGW(Load Balancer)
 
@@ -49,8 +49,9 @@ admin(Administrateurs)
 
     end 
 
-user --- vide --> proxy --> appGW --> VM
-admin --- |ssh| void --> |ssh| proxy --> |ssh| BDD
+user --- vide --> appGW --> VM
+admin --- |SSH| void --> |SSH| proxy --> |SSH| vmadmin --> |SSH| BDD
+vmadmin --> |SSH| VM
 VM <--> BDD
 
     classDef rouge fill:#faa,stroke:#f66,stroke-width:4px,color:#fff,stroke-dasharray: 5 5;
@@ -58,7 +59,7 @@ VM <--> BDD
     classDef sec fill:#aff,stroke:#025,stroke-width:2px,color:#003;
     class AZ, sec;
     classDef ter fill:#f0f,stroke:#025,stroke-width:2px,color:#003;
-    class BDD, ter;
+    class BDD,vmadmin, ter;
     classDef vert fill:#af0,stroke:#025,stroke-width:2px,color:#003;
     class proxy,appGW,Serv, vert;
     classDef blanc fill:#fff,stroke:#025,stroke-width:2px,color:#003;
@@ -69,23 +70,22 @@ VM <--> BDD
 
 
 -----------
-| ressource | VM (application) |  MariaDB |
-| :--------: | :--------: | :--------: |
-| Azure service | ✓ | ✗ |
-| ressource groupe | ✓ | ✓ |
-| Pterodactyl | ✓ | ✗ |
-| Vnet    | ... | ... |
-| IP Public | ... | ... (ssh only) |
-| subnet     | ... | ... |
-| SSH (port) | 80 | 22 |
-| Disque | HDD - 4Gb | SSD - 4Gb |
-| Ubuntu | 18.04-LTS à maj en 22.04 LTS | 18.04-LTS à maj en 22.04 LTS  |
+| ressource | VM (application) | VM (Admin) |  MariaDB | Bastion |
+| :--------: | :--------: | :--------: | :--------: | :--------: |
+| Azure service | ✓ | ✓ | ✗ | ✓ |
+| ressource groupe | ✓ |✓ | ✓ | ✓ |
+| Vnet    | 10.0.0.0/21 | 10.0.0.0/21 | 10.0.0.0/21 | 10.0.4.0/23 |
+| Subnet | 10.0.6.0/24 | 10.0.5.0/24 | ... | 10.0.4.0/24 |
+| IP Public | Dyn | No | No | Dyn |
+| SSH (port) | 22 | 22 | 22 | 22 |
+| Disque | HDD - 4Gb | HDD - 4Gb | SSD - 4Gb | N/A |
+| Ubuntu | 18.04-LTS à maj en 22.04 LTS | 18.04-LTS à maj en 22.04 LTS  | N/A | N/A |
 
 
 Ressource vm:
 
 - Disque : hdd
-- RAM: 8Gb (pour une liberté totale, 4Gb si pas de sous)
+- RAM: 4Gb
 - Coeur: 1
 - OS : Ubuntu
 
@@ -103,55 +103,47 @@ Ressources :
 - Terraform
 - Bastion
 
-1.  **Liste tâches à faire sur le [Board](https://github.com/users/Simplon-Luna/projects/1/views/1)**
+1.   **Liste tâches à faire sur le [Board](https://github.com/users/Simplon-Luna/projects/1/views/1)**
 Création et gestion des tâches dans l'ordre du plan d'action. Attribution des tâches aux membres du groupe au fur et à mesure.
 
-06. **Installation de Terraform**
+1.  **Installation de Terraform**
 
-07. **Ch 1: déploiement d’une infrastructure minimale** (Python)
+2.  **Déploiement d’une infrastructure minimale**
 
-08. **Ch 2: déploiement  BDD** (Mariadb)
+3.  **Déploiement  BDD** (Mariadb)
 
-9.  **Ch 3: déploiement d’un espace de stockage** (SMB)
+4.   **Déploiement d’un espace de stockage** (SMB)
 
-10. **Ch 5: déploiement d’un load balancer**
+5.  **Déploiement d’un load balancer**
 
-11. **Installation de Gitea (sous ubuntu)**
+6.  **Installation de Gitea (sous ubuntu)**
 
-12. **Ch 4: script cloud-init**
+7.  **Script cloud-init**
 
-13. **Ch 7: Monitoring de l’application**
+8.  **Monitoring de l’application**
 
-14. **Ch 8: script de test de montée en charge**
+9.  **script de test de montée en charge**
 
-15. **Ch 9: backup**
+10. **Backup**
 
-16. **Table d'adressage**
+11. **Scale set** /!\ ***SWITCH APP*** /!\
 
-17. **Ch 10: scale set** /!\ ***SWITCH APP*** /!\
+12. **Auto scale**
 
-21. **Ch 11: auto scale**
-
-22. **Les tests et métriques de monitoring**
+13. **Les tests et métriques de monitoring**
 Nous allons utiliser Azure insight et mesurer : 
-- le CPU (utilisation > 80% et température)
-- le stockage (limite IO avec alertes si >80% utilisés)
-- la RAM (alertes si plus de 6.4GB utilisés = 80%)
-- la charge réseau (nombre de connexions et débit, alertes si le débit montant et descendant / connexion explose ou chute drastiquement)
-- alerte par mail et en notification si la base de données n'a plus que 20% d'espace libre
+- le CPU (utilisation > 90%)
+- le stockage (limite BDD stockage < 10% disponible)
+- alerte par mail et en notification si alerte déclenchée
 
-23. **Le plan de test de charge**
-Utilisation d'un chunkloader au démarrage du serveur. Le chunkloader sera configuré avant d'être lancé et génèrera une forte charge en générant de nombreux blocs d'entités.
+19. **Plan de test de charge**
+Utilisation d'Azure Load Test
 
-23. **Backup** (politique)
-Arrêt total du serveur. Envoi d'une requête de sauvegarde sur le serveur de backup (pull backup->DB), une fois terminée envoi un ping de validation (backup->app) permettant le redémarrage du serveur.
-Sauvegarde différentielle des données du mardi au dimanche, sauvegarde complète des données le lundi.
-Conservation des 12 dernières différentielles et des 8 dernières images complètes.
+23. **Backup**
+TBD
 
 24. **Stratégie de scaling** (Ansible)
-Une fois que l'on a dépassé 80% des 4GB (6.4GB) de ram, un scale out est effectué.
-Quand le nombre de connexions dépasse x, les connexions sont bloquées sur le premier serveur et redirigées vers le second serveur (scale out). Une alerte est lancée et permet de déclencher un scale out automatique.
-Scale up de la BDD utilisateur après 80% d'utilisation.
+Scale set TBD
 
 25. **Documentations Terraform et Ansible**
 Documentation "à la volée" sur ce que l'on a compris lors de notre utilisation de Terraform, des difficultés, des spécificités...
