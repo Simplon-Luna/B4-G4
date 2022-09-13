@@ -1,0 +1,35 @@
+# Documentation d'utilisation du script 
+
+Voici le manuel d'utilisation du script de création de la machine virtuelle de Gitea. 
+
+Une fois commmandé, vous recevrez un package comprenant :
+
+- le script de déploiement de l'infrastructure 
+- un fichier yaml 
+
+Créez un dossier dans lequel mettre tous les fichiers, puis executez le script avec Terraform. Lorsque l'action a été réalisée, connectez-vous sur votre compte Azure et executez le fichier `main.tf` qui se chargera de tout créer et paramétrer pour vous.
+
+/!\ Attention : n'oubliez pas de remplacer les clés SSH dans les fichiers `gitea.yml` (lignes 26, 29, 30 et 31) et `.ssh`. Supprimez les clés SSH dont vous n'avez pas besoin et changez le nom de l'utilisateur aux lignes 14, 16 et 18.
+
+Les identifiants par défault de la base de données sont :
+
+- Username / nom d'utilisateur : mariadbadmin
+- Password / mot-de-passe : H@Sh1CoR3!
+
+Pour changer les identifiants, rendez-vous sur le script, à la ligne 32, colonnes 95 et 104.
+
+Le compte admin de la vm est : 
+- myAdminVM
+
+Pour changer le compte admin, rendez-vous sur le script, à la ligne 258 colonne 38.
+
+Le compte de connection pour Gitea est : 
+
+- Username / nom d'utilisateur : git
+- Password / mot-de-passe : git
+
+Pour changer le compte de connexion, rendez-vous dans le fichier gitea.yaml, à la ligne 144.
+
+Enfin, pour vous connecter, tapez l'adresse ip publique de la machine virtuelle puis le numéro de port `:3000` et cliquez sur la touche `Entrée` de votre clavier.
+
+*Exemple* : 40.30.32.345:3000
