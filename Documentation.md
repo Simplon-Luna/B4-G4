@@ -8,7 +8,9 @@
 ### [3 - Installation](#Installation)
 #### [a) Azure CLI](#Azure-CLI)
 #### [b) Terraform](#Terraform-install)
-### [4 - Authentification](#Authentification)
+### [4 - Difficultés rencontrées](#Difficultés)
+### [5 - Conclusion](#Conclusion)
+
 
 <div id='Terraform'/>  
 
@@ -56,8 +58,19 @@ Utiliser [Homebrew](https://brew.sh/), un paquet open source, pour installer [Az
 
 [&#8679;](#top)  
 
-<div id='Authentification'/>  
+<div id='Difficultés'/>  
 
-### Authentification
+### Difficultés rencontrées
+Nous avons rencontré plusieurs difficultés :
+- la documentation Terraform est obsolète sur plusieurs points (pas à jour), ce qui nous a amené un grands nombre de messages d'erreur qu'il a fallu décrypter et corriger.
+- les messages d'erreur ne désignent pas la ligne en cause ce qui complique la tâche.
+- les codes d'erreur sont peu clairs (cryptiques si l'on peut dire ça).
+- les ressources Azure sont difficilement configurables quand elles sont disponibles.
+- terraform rencontre des difficultés avec l'interface Cloudshell d'Azure qui n'est pas aussi rapide et corrompt régulièrement les fichiers.
 
-Terraform à besoin d'être authentifier 
+[&#8679;](#top) 
+
+<div id='Conclusion'/> 
+
+### Conclusion
+Terraform est un outil intéressant et pratique pour le déploiement, le maintien, et destruction automatique d'applications et d'infrastsuctures cloud. C'est un outil performant qui souffre d'une documentation dépassée et d'une implémentaiton Azure hazardeuse.
