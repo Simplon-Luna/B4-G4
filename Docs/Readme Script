@@ -9,7 +9,9 @@ Une fois commmandé, vous recevrez un package comprenant :
 
 Créez un dossier dans lequel mettre tous les fichiers, puis executez le script avec Terraform. Lorsque l'action a été réalisée, connectez-vous sur votre compte Azure et executez le fichier `main.tf` qui se chargera de tout créer et paramétrer pour vous.
 
-/!\ Attention : n'oubliez pas de remplacer les clés SSH dans les fichiers `gitea.yml` (lignes 26, 29, 30 et 31) et `.ssh`. Supprimez les clés SSH dont vous n'avez pas besoin et changez le nom de l'utilisateur aux lignes 14, 16 et 18.
+/!\ Attention : n'oubliez pas de remplacer les clés SSH dans les fichiers `gitea.yml` (lignes 26, 29, 30 et 31) et `.ssh`. Supprimez les clés SSH dont vous n'avez pas besoin et changez le nom de l'utilisateur aux lignes 14, 16 et 18. /!\
+
+/!\ Attention : Ne pas oublier de changer la variable de l'email administrateur /!\
 
 Les identifiants par défault de la base de données sont :
 
