@@ -93,21 +93,10 @@ Objectif d'hier atteint, script initial terminé !
 
 DocS a réaliser (Poulpi?)
 
-----
+### 22-09-14
+Poulpi a fait de la doc, nous avons finis le code et la mise en place du load tester Azure.
 
-copie les données dans une région secondaire de la région primaire sur plusieurs centres de données situés à plusieurs kilomètres.
+### 22-09-15
+Hier nous avons repris le code d'Alfred pour le load test et le scaling.
 
-R. Stockage Premium
-B. Stockage redondant dans une zone (ZRS)
-C. Stockage géo-redondant (GRS)
-D. Stockage localement redondant (LRS)
-
-Quelle option permet de définir la communication entre un **appareil VPN local** et une **passerelle VPN Azure** via un tunnel chiffré via Internet ?
-
-R. ExpressRoute
-B. VPN point à site (P2S)
-C. VPN de site à site
-
-----
-
-BGP / Border Gateway Protocol ?
+Aujourd'hui, nous finirons la mise en place du scaling et nous passerons au code Ansible.
