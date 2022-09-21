@@ -100,3 +100,18 @@ Poulpi a fait de la doc, nous avons finis le code et la mise en place du load te
 Hier nous avons repris le code d'Alfred pour le load test et le scaling.
 
 Aujourd'hui, nous finirons la mise en place du scaling et nous passerons au code Ansible.
+
+### 22-09-16
+Hier nous avons terminé Ansible. Aujourd'hui "cours" sur l'exam AZ900.
+
+### 22-09-19
+Exam Time !!! (and #### that ##### from India)
+
+### 22-09-20
+Le resto était pas mal mais Emiko est meilleur.
+
+Brief 4 déjà terminé depuis 1 semaine... Paufinage... ZzZz
+
+### 22-09-21
+Reprise du code d'Alfred en ***TERRAFORM*** pour ajouter la désactivation de Soft Delete Feature State et du scale-up&down rajouté parcequ'on est trop forts... Et trop en avance. Donc pas de sieste -_-"
+
