@@ -115,3 +115,15 @@ Brief 4 déjà terminé depuis 1 semaine... Paufinage... ZzZz
 ### 22-09-21
 Reprise du code d'Alfred en ***TERRAFORM*** pour ajouter la désactivation de Soft Delete Feature State et du scale-up&down rajouté parcequ'on est trop forts... Et trop en avance. Donc pas de sieste -_-"
 
+### 22-09-22
+Hier, travail sur le rajout de scale-up/down mais pas de doc...
+Aujourd'hui, changement d'objectif par Alfred. Scaling avec graph de donnée quelle VM réponds à quelle requêtes par seconde...
+
+### 22-09-23
+Hier, travail plutôt acharné avec Alfred et Bryan pour un script en Python de montée en charge sur des VM qui répondent super mal et Azure qui déconne... La montée en charge fonctionne, le scaling... plus, parce que Azure...
+
+Aujourd'hui, 
+    - Réunion d'information style de travail de groupe et protocoles G4.
+    - Reprise de l'exercice en cours.
+
+Message de Noa important : Manger des fruits et légumes c'est important !
