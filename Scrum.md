@@ -127,3 +127,15 @@ Aujourd'hui,
     - Reprise de l'exercice en cours.
 
 Message de Noa important : Manger des fruits et légumes c'est important !
+
+### 22-09-26
+Hier, weekend trop court, toute l'équipe est d'accord... On veut dormir.
+
+Les filles ont toutes des courbatures... Ne posez pas la question.
+Apparemment, Noa a aussi des courbes... Atures.
+
+Vendredi, code de graph en cours de débug et dev.
+
+Aujourd'hui, vérification des codes et scripts précédants, vérification des docs prévues pour demain. Continuation du dev du code de graph monitoring. MAJ du script original Terraform pour inclure la commande Azure CLI d'annulation du soft lock du backup et décommentage de la back-up policy.
+
+David nous a ***ENCORE*** fait rentrer des moustiques dans la salle après nous avoir maintenu "qu'il n'y a plus de moustiqueS" et qu'on était parano.
