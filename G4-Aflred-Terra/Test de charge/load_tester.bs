@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for i in {1..25}
+do
+
+    curl --silent --output /dev/null -F 'vote=Cats' http://votingapp-b4g4ld-rg.eastus.cloudapp.azure.com/
+    sleep 0.2
+    curl --silent --output /dev/null -F 'vote=Cats' http://votingapp-b4g4ld-rg.eastus.cloudapp.azure.com/
+    sleep 0.2
+    curl --silent --output /dev/null -F 'vote=Dogs' http://votingapp-b4g4ld-rg.eastus.cloudapp.azure.com/
+    sleep 0.2
+
+done
+ ## seq 100 | parallel --max-args 0 --jobs 10 " curl -F 'vote=Cats' http://votingapp-b4g4ld-rg.eastus.cloudapp.azure.com/"
