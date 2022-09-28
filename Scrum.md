@@ -139,3 +139,10 @@ Vendredi, code de graph en cours de débug et dev.
 Aujourd'hui, vérification des codes et scripts précédants, vérification des docs prévues pour demain. Continuation du dev du code de graph monitoring. MAJ du script original Terraform pour inclure la commande Azure CLI d'annulation du soft lock du backup et décommentage de la back-up policy.
 
 David nous a ***ENCORE*** fait rentrer des moustiques dans la salle après nous avoir maintenu "qu'il n'y a plus de moustiqueS" et qu'on était parano.
+
+### 22-09-27
+Hier, Réussis à terminé à implémenté le back up vault unlock correctement. Codes tous fonctionnels hormis le code de la courbe cumulutrice pour le graph.
+
+### 22-09-26
+Hier, cours et application du cours Docker. Aujourd'hui, mise à jours de docs et préparation pour la présentation, stabilisation et implémentation du code de la courbe cumulatrice, potentiellement ajout du code de VMSS pour le brief original.
+
