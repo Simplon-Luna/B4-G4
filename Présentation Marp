@@ -4,7 +4,7 @@ theme: gaia
 markdown.marp.enableHtml: true
 paginate: true
 ---
-<!-- backgroundImage: "linear-gradient(to bottom,aqua, #0288d1)" -->
+<!-- backgroundImage: "linear-gradient(to bottom, #ffb7c5, #DCD0FF)" -->
 
 <!--
 _color: black
@@ -36,6 +36,7 @@ Groupe 4
 <!--
 _color: black
 -->
+
 ---
 ## 1 - Ressources utilisées  
 * Documentation Microsoft Azure
@@ -50,6 +51,7 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 2 - Choix particuliers
 * Script en langage Terraform adapté à Azure
@@ -59,6 +61,7 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 3 - Nombre de scripts
 Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les clés SSH des administrateurs autorisés. Cela permet de  définir et d'enchaîner les étapes importantes du brief 4. Mais aussi de faciliter la lisibilité et la modification des scripts.
@@ -71,6 +74,7 @@ Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les cl�
 _backgroundColor: black
 _color: black
 -->
+
 --- 
 ## 4 - Plan projet prévu VS plan projet exécuté 
 |  | *Plan projet prévu* | *Plan projet exécuté* |
@@ -86,6 +90,7 @@ _color: black
 <!--
 _color: black
 -->
+
 --- 
 |  | *Plan projet prévu* | *Plan projet exécuté* |
 |-----------|:----------:|:------------:|
@@ -97,12 +102,28 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 5 - Compréhension des outils et des logiciels
-Nous avons commencé partiellement voire presque complètement certains points, mais n'avons pas pu les soumettre dans le script final : 
-* Comptes nominatifs avec droits administrateur
-* Sauvegarde du disque chiffré
-* Application Insights
+***Terraform*** = 
+* outil organisé qui convient pour déployer pas à pas une infrastructure et des applications.
+* construction d'un plan prédéfini des étapes qui vont se réaliser en parallèle avec des messages d'erreur détaillés et précis.
+* permet de configurer et paramétrer toutes les étapes d'une infrastructure.
+* compatible avec d'autres logiciels et plateformes
+* un interpréteur qui reçoit du code et le transforme en différentes commandes.
+
+<!--
+_color: black
+-->
+
+---
+
+***Ansible*** = 
+* fichier père qui va appeler plusieurs fichiers fils pour chaque fonction voulue. 
+* Il faut un fichier différent pour chaque étape.
+* un programme qui permet d'automatiser des tâches.
+* prend en entrée une liste d'actions dans l'ordre au format YAML (pas un résultat fini comme terraform)
+* il exécute du code python en sortie = des possibilités infinies car l'utilisateur peut installer des collections (pleins de fonctions qu'Ansible va pouvoir exécuter).
 
 <!--
 _color: black
@@ -112,12 +133,9 @@ _color: black
 ## 6 - Difficultés  rencontrées
 Nous avons rencontré plusieurs difficultés : communes et individuelles.
 
-*Communes* : 
 * Prioriser les différentes étapes du script en fonction de leurs pré-requis
-* Rechercher et analyser de la documentation (anglais/français)
+* Rechercher et analyser de la documentation (Ansible mal rédigée, Ansible et Azure presque incompatibles, mauvaise adaptabilité et flexibilité du logiciel d'ansible, documentations pas à jour)
 * Trier les informations, les gérer et les assembler
-* Rendre un script lisible et qualitatif
-* Gérer et organiser le temps de travail
 
 <!--
 _color: black
@@ -125,9 +143,13 @@ _color: black
 
 ---
 ## 7 - Solutions trouvées 
-Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements.
+Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements :
 
-Ce n'est pas encore parfait, mais nous avons trouvé un rythme et une dynamique de groupe. Ainsi, nous avons pu continuer à travailler sur le brief dans la bonne humeur.
+* scrums quotidiens
+* écoute active 
+* communication permanente 
+* des temps/moments dédiés
+=> ont permis d'apprendre à travailler ensemble de manière optimale et convenable pour tous les membres du groupe. 
 
 <!--
 _color: black
@@ -135,6 +157,7 @@ _color: black
 ---
 ## 8 - Bonus
 
+Courbe graphique
 
 <!--
 _color: black
