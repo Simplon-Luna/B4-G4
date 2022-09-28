@@ -112,12 +112,10 @@ _color: black
 ## 6 - Difficultés  rencontrées
 Nous avons rencontré plusieurs difficultés : communes et individuelles.
 
-*Communes* : 
 * Prioriser les différentes étapes du script en fonction de leurs pré-requis
-* Rechercher et analyser de la documentation (anglais/français)
+* Rechercher et analyser de la documentation (Ansible mal rédigée, Ansible et Azure presque incompatibles, mauvaise adaptabilité et flexibilité du logiciel d'ansible, documentations pas à jour)
 * Trier les informations, les gérer et les assembler
-* Rendre un script lisible et qualitatif
-* Gérer et organiser le temps de travail
+
 
 <!--
 _color: black
@@ -135,6 +133,7 @@ _color: black
 ---
 ## 8 - Bonus
 
+Courbe graphique
 
 <!--
 _color: black
