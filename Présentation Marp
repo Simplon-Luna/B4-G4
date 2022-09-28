@@ -4,7 +4,7 @@ theme: gaia
 markdown.marp.enableHtml: true
 paginate: true
 ---
-<!-- backgroundImage: "linear-gradient(to bottom,aqua, #0288d1)" -->
+<!-- backgroundImage: "linear-gradient(to bottom, #ffb7c5, #DCD0FF)" -->
 
 <!--
 _color: black
@@ -121,6 +121,9 @@ _color: black
 ***Ansible*** = 
 * fichier père qui va appeler plusieurs fichiers fils pour chaque fonction voulue. 
 * Il faut un fichier différent pour chaque étape.
+* un programme qui permet d'automatiser des tâches.
+* prend en entrée une liste d'actions dans l'ordre au format YAML (pas un résultat fini comme terraform)
+* il exécute du code python en sortie = des possibilités infinies car l'utilisateur peut installer des collections (pleins de fonctions qu'Ansible va pouvoir exécuter).
 
 <!--
 _color: black
