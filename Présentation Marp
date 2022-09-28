@@ -68,7 +68,6 @@ Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les cl�
 * 1er script : Script jusqu'à passation de projet
 * 2ème script : Script Terraform d'Alfred avec scale set
 * 3ème script : Script Ansible d'Alfred avec scale set
-* 4ème script : Script initial avec scale set
 
 <!--
 _backgroundColor: black
@@ -158,7 +157,7 @@ _color: black
 ## 8 - Bonus
 
 Example de nos courbes graphiques en temps réel
-![Slide3](https://user-images.githubusercontent.com/108002178/192768326-e169f53b-b6e8-422c-983c-d68fafe29c15.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;![width:1100px height:500px](https://user-images.githubusercontent.com/108002178/192768326-e169f53b-b6e8-422c-983c-d68fafe29c15.jpg)
 
 <!--
 _color: black
@@ -166,7 +165,7 @@ _color: black
 
 ---
 
-![Slide4](https://user-images.githubusercontent.com/108002178/192768327-7a2c27bd-5b2f-48ac-9b6e-af83723e7f95.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;![width:1100px height:600px](https://user-images.githubusercontent.com/108002178/192768327-7a2c27bd-5b2f-48ac-9b6e-af83723e7f95.jpg)
 
 <!--
 _color: black
