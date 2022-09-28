@@ -102,10 +102,25 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 5 - Compréhension des outils et des logiciels
-Terraform = construction d'un plan prédéfini des étapes qui vont se réaliser en parallèle
-Ansible = fichier père qui va appeler plusieurs fichiers fils pour chaque fonction voulue. Il faut un fichier différent pour chaque étape.
+***Terraform*** = 
+* outil organisé qui convient pour déployer pas à pas une infrastructure et des applications.
+* construction d'un plan prédéfini des étapes qui vont se réaliser en parallèle avec des messages d'erreur détaillés et précis.
+* permet de configurer et paramétrer toutes les étapes d'une infrastructure.
+* compatible avec d'autres logiciels et plateformes
+* un interpréteur qui reçoit du code et le transforme en différentes commandes.
+
+<!--
+_color: black
+-->
+
+---
+
+***Ansible*** = 
+* fichier père qui va appeler plusieurs fichiers fils pour chaque fonction voulue. 
+* Il faut un fichier différent pour chaque étape.
 
 <!--
 _color: black
