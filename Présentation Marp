@@ -1,0 +1,176 @@
+---
+marp: true
+theme: gaia
+markdown.marp.enableHtml: true
+paginate: true
+---
+<!-- backgroundImage: "linear-gradient(to bottom,aqua, #0288d1)" -->
+
+<!--
+_color: black
+-->
+
+# Présentation Brief 4
+#### Déploiement automatique du service applicatif Gitea avec Terraform
+Groupe 4
+*Baptiste, Dunvael, Luna, Noa*  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Gitea](https://user-images.githubusercontent.com/108001918/192715095-fc639c6f-5fa1-4c9d-bf82-a52c6de8d410.png)
+
+
+<!-- paginate: false -->
+
+---
+# SOMMAIRE  
+1 - Ressources utilisées
+2 - Choix particuliers
+3 - Nombre de scripts
+4 - Plan projet prévu VS plan projet exécuté
+5 - Compréhension des outils et des logiciels
+6 - Difficultés rencontrées
+7 - Contrer les difficultés
+8 - Bonus
+
+
+<!-- paginate: true -->
+<!--
+_color: black
+-->
+---
+## 1 - Ressources utilisées  
+* Documentation Microsoft Azure
+* Documentation Terraform
+* Portail Azure pour l'interface graphique
+* Cloudshell du portail Azure
+* Moteur de recherche Google
+* Visual Studio Code
+* Github
+* *(Alfred et Bryan encore et toujours :p)*
+
+<!--
+_color: black
+-->
+---
+## 2 - Choix particuliers
+* Script en langage Terraform adapté à Azure
+* Installation de l'application Gitea
+* Utilisation d'Ubuntu 20.3
+
+<!--
+_color: black
+-->
+---
+## 3 - Nombre de scripts
+Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les clés SSH des administrateurs autorisés. Cela permet de  définir et d'enchaîner les étapes importantes du brief 4. Mais aussi de faciliter la lisibilité et la modification des scripts.
+* 1er script : Script jusqu'à passation de projet
+* 2ème script : Script Terraform d'Alfred avec scale set
+* 3ème script : Script Ansible d'Alfred avec scale set
+* 4ème script : Script initial avec scale set
+
+<!--
+_backgroundColor: black
+_color: black
+-->
+--- 
+## 4 - Plan projet prévu VS plan projet exécuté 
+|  | *Plan projet prévu* | *Plan projet exécuté* |
+|-----------|:----------:|:------------:|
+| GR|&#9745;|&#9745;|
+| Bastion et clés SSH |&#9745;|&#9745;|
+| VMs |&#9745; |&#9745;|
+| Disque dur |&#9745;|&#9745;|
+| Gitea |&#9745;|&#9745;|
+| Backup  Vault |&#9745;|&#9745;|
+| Load Balancer |&#9745;|&#9745;| 
+
+<!--
+_color: black
+-->
+--- 
+|  | *Plan projet prévu* | *Plan projet exécuté* |
+|-----------|:----------:|:------------:|
+| MariaDB |&#9745;|&#9745;|
+| Application Insight |&#9745;|&#9745;|
+| Documentation Terraform |&#9745;|&#9745;|
+| Méthodologie Scrum |&#9745;|&#9745;|
+
+<!--
+_color: black
+-->
+---
+## 5 - En cours de développement
+Nous avons commencé partiellement voire presque complètement certains points, mais n'avons pas pu les soumettre dans le script final : 
+* Comptes nominatifs avec droits administrateur
+* Sauvegarde du disque chiffré
+* Application Insights
+
+<!--
+_color: black
+-->
+---
+## 6 - Compréhension des outils et des logiciels
+
+Nous avons découvert de nouveaux outils et logiciels lors du déroulement du brief 3 :
+* *Azure CLI* : interface en ligne de commande de Microsoft Azure avec sa syntaxe et ses arguments
+* *Méthodologie Scrum* : organiser, gérer et communiquer quotidiennement sur le déroulement du brief 3 et des objectifs fixés
+* *Azure BackupVault et Backup* : sauvegarde avec les paramètres nécessaires à activer/désactiver
+<!--
+_color: black
+-->
+
+---
+## 7 - Difficultés  
+Nous avons rencontré plusieurs difficultés : communes et individuelles.
+
+*Communes* : 
+* Prioriser les différentes étapes du script en fonction de leurs pré-requis
+* Rechercher et analyser de la documentation (anglais/français)
+* Trier les informations, les gérer et les assembler
+* Rendre un script lisible et qualitatif
+* Gérer et organiser le temps de travail
+
+<!--
+_color: black
+-->
+---
+
+*Individuelles* :
+* Dynamique d'équipe (communication)
+* Répartition des tâches
+* Manque de connaissances et de pratique avec Bash et la création de scripts en général
+* Perturbations liées à l'environnement de travail
+
+<!--
+_color: black
+-->
+
+---
+## 8 - Contrer les difficultés  
+Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements.
+
+Ce n'est pas encore parfait, mais nous avons trouvé un rythme et une dynamique de groupe. Ainsi, nous avons pu continuer à travailler sur le brief dans la bonne humeur.
+
+<!--
+_color: black
+-->
+---
+## 9 - Ce que j'ai appris
+J'ai obtenu des connaissances, parfois générales, parfois spécifiques à des applications, qu'il faut que je continue à approfondir : 
+* Le fonctionnement logique entre certaines applications et services
+* L'ajout de commandes afin de localiser et déterminer la cause des messages d'erreur dans le script
+* L'interprétation des messages d'erreur qui s'affichent lors de l'exécution du script ou de commandes
+* Le fonctionnement global du CLI d'Azure et de ses arguments
+
+<!--
+_color: black
+-->
+---
+## 9 - Ce que j'ai appris
+* La création d'un fichier script et son exécution
+* La priorisation, l'organisation et l'analyse des résultats de mes recherches
+* L'expérimentation de ces résultats via le terminal et son explication auprès de mes collègues
+
+A l'issu de ce brief, je pense avoir une meilleure compréhension globale des services déployés et appris à moins me comparer aux autres et à leurs compétences. Globalement, je pense être montée en compétences d'un point de vue technique et sur la mise en pratique (par rapport au brief 2).
+<!--
+_color: black
+-->
