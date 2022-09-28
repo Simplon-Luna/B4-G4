@@ -36,6 +36,7 @@ Groupe 4
 <!--
 _color: black
 -->
+
 ---
 ## 1 - Ressources utilisées  
 * Documentation Microsoft Azure
@@ -50,6 +51,7 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 2 - Choix particuliers
 * Script en langage Terraform adapté à Azure
@@ -59,6 +61,7 @@ _color: black
 <!--
 _color: black
 -->
+
 ---
 ## 3 - Nombre de scripts
 Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les clés SSH des administrateurs autorisés. Cela permet de  définir et d'enchaîner les étapes importantes du brief 4. Mais aussi de faciliter la lisibilité et la modification des scripts.
@@ -71,6 +74,7 @@ Nous avons choisi de réaliser plusieurs scripts et un fichier contenant les cl�
 _backgroundColor: black
 _color: black
 -->
+
 --- 
 ## 4 - Plan projet prévu VS plan projet exécuté 
 |  | *Plan projet prévu* | *Plan projet exécuté* |
@@ -86,6 +90,7 @@ _color: black
 <!--
 _color: black
 -->
+
 --- 
 |  | *Plan projet prévu* | *Plan projet exécuté* |
 |-----------|:----------:|:------------:|
@@ -99,10 +104,8 @@ _color: black
 -->
 ---
 ## 5 - Compréhension des outils et des logiciels
-Nous avons commencé partiellement voire presque complètement certains points, mais n'avons pas pu les soumettre dans le script final : 
-* Comptes nominatifs avec droits administrateur
-* Sauvegarde du disque chiffré
-* Application Insights
+Terraform = construction d'un plan prédéfini des étapes qui vont se réaliser en parallèle
+Ansible = fichier père qui va appeler plusieurs fichiers fils pour chaque fonction voulue. Il faut un fichier différent pour chaque étape.
 
 <!--
 _color: black
@@ -116,16 +119,19 @@ Nous avons rencontré plusieurs difficultés : communes et individuelles.
 * Rechercher et analyser de la documentation (Ansible mal rédigée, Ansible et Azure presque incompatibles, mauvaise adaptabilité et flexibilité du logiciel d'ansible, documentations pas à jour)
 * Trier les informations, les gérer et les assembler
 
-
 <!--
 _color: black
 -->
 
 ---
 ## 7 - Solutions trouvées 
-Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements.
+Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements :
 
-Ce n'est pas encore parfait, mais nous avons trouvé un rythme et une dynamique de groupe. Ainsi, nous avons pu continuer à travailler sur le brief dans la bonne humeur.
+* scrums quotidiens
+* écoute active 
+* communication permanente 
+* des temps/moments dédiés
+=> ont permis d'apprendre à travailler ensemble de manière optimale et convenable pour tous les membres du groupe. 
 
 <!--
 _color: black
