@@ -28,7 +28,7 @@ Groupe 4
 4 - Plan projet prévu VS plan projet exécuté
 5 - Compréhension des outils et des logiciels
 6 - Difficultés rencontrées
-7 - Contrer les difficultés
+7 - Solutions trouvées
 8 - Bonus
 
 
@@ -98,7 +98,7 @@ _color: black
 _color: black
 -->
 ---
-## 5 - En cours de développement
+## 5 - Compréhension des outils et des logiciels
 Nous avons commencé partiellement voire presque complètement certains points, mais n'avons pas pu les soumettre dans le script final : 
 * Comptes nominatifs avec droits administrateur
 * Sauvegarde du disque chiffré
@@ -107,19 +107,9 @@ Nous avons commencé partiellement voire presque complètement certains points, 
 <!--
 _color: black
 -->
----
-## 6 - Compréhension des outils et des logiciels
-
-Nous avons découvert de nouveaux outils et logiciels lors du déroulement du brief 3 :
-* *Azure CLI* : interface en ligne de commande de Microsoft Azure avec sa syntaxe et ses arguments
-* *Méthodologie Scrum* : organiser, gérer et communiquer quotidiennement sur le déroulement du brief 3 et des objectifs fixés
-* *Azure BackupVault et Backup* : sauvegarde avec les paramètres nécessaires à activer/désactiver
-<!--
-_color: black
--->
 
 ---
-## 7 - Difficultés  
+## 6 - Difficultés  rencontrées
 Nous avons rencontré plusieurs difficultés : communes et individuelles.
 
 *Communes* : 
@@ -132,20 +122,9 @@ Nous avons rencontré plusieurs difficultés : communes et individuelles.
 <!--
 _color: black
 -->
----
-
-*Individuelles* :
-* Dynamique d'équipe (communication)
-* Répartition des tâches
-* Manque de connaissances et de pratique avec Bash et la création de scripts en général
-* Perturbations liées à l'environnement de travail
-
-<!--
-_color: black
--->
 
 ---
-## 8 - Contrer les difficultés  
+## 7 - Solutions trouvées 
 Afin de palier aux difficultés, nous avons cherché des solutions, nous sommes remis en question et avons adoptés différents comportements.
 
 Ce n'est pas encore parfait, mais nous avons trouvé un rythme et une dynamique de groupe. Ainsi, nous avons pu continuer à travailler sur le brief dans la bonne humeur.
@@ -154,23 +133,9 @@ Ce n'est pas encore parfait, mais nous avons trouvé un rythme et une dynamique 
 _color: black
 -->
 ---
-## 9 - Ce que j'ai appris
-J'ai obtenu des connaissances, parfois générales, parfois spécifiques à des applications, qu'il faut que je continue à approfondir : 
-* Le fonctionnement logique entre certaines applications et services
-* L'ajout de commandes afin de localiser et déterminer la cause des messages d'erreur dans le script
-* L'interprétation des messages d'erreur qui s'affichent lors de l'exécution du script ou de commandes
-* Le fonctionnement global du CLI d'Azure et de ses arguments
+## 8 - Bonus
 
-<!--
-_color: black
--->
----
-## 9 - Ce que j'ai appris
-* La création d'un fichier script et son exécution
-* La priorisation, l'organisation et l'analyse des résultats de mes recherches
-* L'expérimentation de ces résultats via le terminal et son explication auprès de mes collègues
 
-A l'issu de ce brief, je pense avoir une meilleure compréhension globale des services déployés et appris à moins me comparer aux autres et à leurs compétences. Globalement, je pense être montée en compétences d'un point de vue technique et sur la mise en pratique (par rapport au brief 2).
 <!--
 _color: black
 -->
