@@ -53,6 +53,14 @@ _color: black
 -->
 
 ---
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![width:900px height:600px](https://user-images.githubusercontent.com/108001918/192770734-76a1ceac-ad0a-447d-9c47-e738956c09d6.png)
+
+<!--
+_color: black
+-->
+
+---
 ## 2 - Choix particuliers
 * Script en langage Terraform adapté à Azure
 * Installation de l'application Gitea
@@ -95,6 +103,8 @@ _color: black
 |-----------|:----------:|:------------:|
 | MariaDB |&#9745;|&#9745;|
 | Application Insight |&#9745;|&#9745;|
+| Script de montée en charge |&#9745;|&#9745;|
+| TLS |&#9745;|&#9744;|
 | Documentation Terraform |&#9745;|&#9745;|
 | Méthodologie Scrum |&#9745;|&#9745;|
 
