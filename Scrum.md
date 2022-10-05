@@ -40,7 +40,7 @@ Hier on a trouver un script bien détailler pour l'installation de Pterodactyl a
 Continuer avec l'automatisation du script pour Dunvael & Luna, recherche Load Balancer, gateway & start cloud init pour  Baptiste.
 
 ### 22-09-01
-Yuta. Finis MariaDB, paramettrage des resources manquantes (subnet, etc) et attente de ce fucking Azure qui dort. Aujourd'hui finission du load balance.
+Baptiste. Finis MariaDB, paramettrage des resources manquantes (subnet, etc) et attente de ce fucking Azure qui dort. Aujourd'hui finission du load balance.
 
 Dunvael et Maitresse Scrum. Hier plus du projet de Pterodactyl (la loose), refocus sur un install manu-auto de Pterodactyl. Aujourd'hui refocus sur le brief, terraform & VM mock.
 
@@ -49,7 +49,7 @@ Hier, réunion communication du groupe, mise en place de règle 1 travail de gro
 
 Dunvael, reprise Terraform sous l'oeil, communication d'équipe c'était important et il faut continuer pour évoluer et déveloper les compétences. Mission du jour, régler le problème com et arriver à faire scale-in&out.
 
-Yuta, hier aider et fait une partie de scale set & load balancer. Aujourd'hui, finis le outbound rules & Pterodactyl. Et manger les 4 derniers Speculos.
+Baptiste, hier aider et fait une partie de scale set & load balancer. Aujourd'hui, finis le outbound rules & Pterodactyl. Et manger les 4 derniers Speculos.
 
 ### 22-09-05
 Scrum des scrums
@@ -73,9 +73,6 @@ Baptiste - Proposition de changement de Pterodactyl à Gitea. Proposition accept
 
 Dunvael & Luna - Finition du monitoring.
 
-Baptiste est désormais appellé Poupli-chan.
-Dunvael est désormais appellée Sadic-Senpai.
-
 ### 22-09-08
 Luna et Dunvael : création du monitoring et configuration, ajout du code de Baptiste.
 Baptiste : création de Bastion, de son vnet et configuration de Bastion.
@@ -91,10 +88,10 @@ Optionnel, faire le FQDN.
 ### 22-09-13
 Objectif d'hier atteint, script initial terminé !
 
-DocS a réaliser (Poulpi?)
+DocS a réaliser
 
 ### 22-09-14
-Poulpi a fait de la doc, nous avons finis le code et la mise en place du load tester Azure.
+Baptiste a fait de la doc, nous avons finis le code et la mise en place du load tester Azure.
 
 ### 22-09-15
 Hier nous avons repris le code d'Alfred pour le load test et le scaling.
